@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.benjamin-romaine.omarchy-newsfeed",
+  "name": "News Feed",
+  "version": "1.0.0",
+  "author": "benjamin-romaine",
+  "description": "Curated headlines dropdown: sports, world, U.S., cybersecurity, tech",
+  "kinds": [
+    "overlay",
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "NewsFeedPanel.qml",
+    "barWidget": "NewsFeedWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "News Feed",
+    "description": "Curated headlines: sports, world, U.S., cybersecurity, tech",
+    "category": "System",
+    "allowMultiple": false
+  }
+}
